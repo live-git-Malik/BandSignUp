@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" > 
+<link rel="stylesheet" href="StyleSheet.css">
+<title>AddStudents</title>
+</head>
+<body>
+   <nav class="navbar navbar-dark bg-dark">
+   	  <a href ="HomePage.html">Home</a>
+      <a href="/WEB-INF/Display.jsp" >Display Student</a>
+      <a href="add-student.html" >Add A Student</a>
+      <a href="deleteStudent.html" >Delete a Product</a>
+    </nav>
+ <form action="/BandStudents-layered-arch-mysql-servlet-jsp/AddServlet">
+ <section class ="Inputs">
+       <h1>Student ID</h1>  <input type="text"  name="AnumberID"/><br/><br/>
+      <h1> Student Name</h1>  <input type="text"  name="StudentName"/><br/><br/>
+      <h1> Band Fee</h1>  <input type="text"  name="Fee"/><br/><br/>
+       <h1> Instrument</h1>  <input type="text"  name="Instrument"/><br/><br/>
+       <input type="submit" value="Add Student"><br/><br/>
+       </section>
+      </form>
+</body>
+</html>
